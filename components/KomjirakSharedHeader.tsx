@@ -149,15 +149,6 @@ export const products: Product[] = [
       mobileWeb: "https://duckjil.komjirak.studio",
     },
   },
-  {
-    id: "wordBingo",
-    name: "Word-Bingo",
-    icon: "/images/wordbingo_icon.png",
-    url: "https://word-bingo.komjirak.studio",
-    platforms: {
-      mobileWeb: "https://word-bingo.komjirak.studio",
-    },
-  },
 ]
 
 // 제품 드롭다운 컴포넌트

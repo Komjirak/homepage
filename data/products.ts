@@ -90,10 +90,19 @@ export const products: Product[] = [
   {
     id: "wordBingo",
     name: "Word-Bingo",
-    icon: "/images/wordbingo_icon.png",
+    icon: "/images/wordbingo.png",
     url: "https://word-bingo.komjirak.studio",
     platforms: {
       mobileWeb: "https://word-bingo.komjirak.studio",
+    },
+  },
+  {
+    id: "runnersBadge",
+    name: "Runners' Badge",
+    icon: "/images/runner_homescreen_icon_rounded.png",
+    url: "https://runners.komjirak.studio/",
+    platforms: {
+      mobileWeb: "https://runners.komjirak.studio/",
     },
   },
 ]

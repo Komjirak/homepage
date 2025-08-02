@@ -20,7 +20,7 @@ const nextConfig = {
             value: 'komjirak.studio',
           },
         ],
-        destination: 'https://www.komjirak.studio/:path*',
+        destination: 'https://www.komjirak.studio/:path*', // Ensured destination is correct
         permanent: true,
       },
     ]

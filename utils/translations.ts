@@ -9,6 +9,7 @@ export type TranslationKey =
   | "mobileWeb"
   | "viewProject"
   | "selectProduct"
+  | "meetra"
 
 export type Translations = {
   [key in TranslationKey]: string
@@ -26,6 +27,7 @@ export const translations: Record<string, Translations> = {
     mobileWeb: "Mobile Web",
     viewProject: "Go to Product",
     selectProduct: "Select Product",
+    meetra: "Real-time multilingual interpretation and AI response service for seamless global communication",
   },
   ko: {
     studioName: "꼼지락 스튜디오",
@@ -38,6 +40,8 @@ export const translations: Record<string, Translations> = {
     mobileWeb: "모바일 웹",
     viewProject: "프로덕트 바로가기",
     selectProduct: "프로덕트 선택",
+    meetra:
+      "원활한 글로벌 소통을 위한 실시간 다국어 통역 및 AI 응답 서비스. 언제 어디서나 글로벌 회의에서 당당하게 의견을 말해보세요.",
   },
   ja: {
     studioName: "コムジラク スタジオ",
@@ -50,6 +54,7 @@ export const translations: Record<string, Translations> = {
     mobileWeb: "モバイルウェブ",
     viewProject: "プロダクトへ",
     selectProduct: "プロダクトを選択",
+    meetra: "シームレスなグローバルコミュニケーションのためのリアルタイム多言語通訳とAI応答サービス",
   },
   "zh-CN": {
     studioName: "Komjirak 工作室",
@@ -62,6 +67,7 @@ export const translations: Record<string, Translations> = {
     mobileWeb: "移动网页",
     viewProject: "前往产品",
     selectProduct: "选择产品",
+    meetra: "为无缝全球沟通提供的实时多语言翻译和AI响应服务",
   },
   "zh-TW": {
     studioName: "Komjirak 工作室",
@@ -74,6 +80,7 @@ export const translations: Record<string, Translations> = {
     mobileWeb: "移動網頁",
     viewProject: "前往產品",
     selectProduct: "選擇產品",
+    meetra: "為無縫全球溝通提供的即時多語言翻譯和AI回應服務",
   },
   th: {
     studioName: "Komjirak Studio",
@@ -86,6 +93,7 @@ export const translations: Record<string, Translations> = {
     mobileWeb: "เว็บมือถือ",
     viewProject: "ไปที่ผลิตภัณฑ์",
     selectProduct: "เลือกผลิตภัณฑ์",
+    meetra: "บริการแปลภาษาแบบเรียลไทม์และการตอบสนองด้วย AI สำหรับการสื่อสารระดับโลกที่ราบรื่น",
   },
 }
 
@@ -111,6 +119,7 @@ export const productDescriptions: Record<string, Record<string, string>> = {
       "A bingo game played with Korean consonants. Challenge yourself now to see if AI or you will complete 3 lines on the bingo board first!",
     runnersBadge:
       "Check national marathon schedules, manage personal records, and collect special badges. Enjoy the fun of running.",
+    meetra: "Real-time multilingual interpretation and AI response service for seamless global communication",
   },
   ko: {
     colorfulDiary:
@@ -132,6 +141,8 @@ export const productDescriptions: Record<string, Record<string, string>> = {
       "한글 초성으로 즐기는 빙고게임. AI가 이길 것인지 내가 이길 것인가 누가 먼저 빙고판 3줄을 완성 시킬지 지금 바로 도전해보세요",
     runnersBadge:
       "전국 마라톤 일정을 확인하고, 개인 기록을 관리하며, 특별한 배지를 수집하세요. 달리는 재미를 즐겨보세요.",
+    meetra:
+      "원활한 글로벌 소통을 위한 실시간 다국어 통역 및 AI 응답 서비스. 언제 어디서나 글로벌 회의에서 당당하게 의견을 말해보세요.",
   },
   ja: {
     colorfulDiary: "今日を色で記憶しましょう。あなたの一日をカラフルな日記で記録し、感情を視覚的に表現してみましょう。",
@@ -153,6 +164,7 @@ export const productDescriptions: Record<string, Record<string, string>> = {
       "ハングル子音で楽しむビンゴゲーム。AIが勝つか、私が勝つか、誰が先にビンゴボードの3列を完成させるか、今すぐ挑戦してみてください！",
     runnersBadge:
       "全国のマラソン日程を確認し、個人記録を管理し、特別なバッジを集めましょう。走る楽しさを満喫してください。",
+    meetra: "シームレスなグローバルコミュニケーションのためのリアルタイム多言語通訳とAI応答サービス",
   },
   "zh-CN": {
     colorfulDiary: "用颜色记住今天。用多彩的日记记录你的一天，视觉化表达你的情感。",
@@ -167,6 +179,7 @@ export const productDescriptions: Record<string, Record<string, string>> = {
       "让你的粉丝活动更完美！不容错过的音乐会必备品。我们收集了满足你爱好的粉丝必备品。现在就来看看吧。",
     wordBingo: "用韩语辅音玩的宾果游戏。现在就来挑战，看看是AI还是你，谁能先完成宾果盘上的3行！",
     runnersBadge: "查看全国马拉松日程，管理个人记录，并收集特殊徽章。享受跑步的乐趣。",
+    meetra: "为无缝全球沟通提供的实时多语言翻译和AI响应服务",
   },
   "zh-TW": {
     colorfulDiary: "用顏色記住今天。用多彩的日記記錄你的一天，視覺化表達你的情感。",
@@ -181,6 +194,7 @@ export const productDescriptions: Record<string, Record<string, string>> = {
       "讓你的粉絲活動更完美！不容錯過的音樂會必備品。我們收集了滿足你愛好的粉絲必備品。現在就來看看吧。",
     wordBingo: "用韓語輔音玩的賓果遊戲。現在就來挑戰，看看是AI還是你，誰能先完成賓果盤上的3行！",
     runnersBadge: "查看全國馬拉松日程，管理個人記錄，並收集特殊徽章。享受跑步的樂趣。",
+    meetra: "為無縫全球溝通提供的即時多語言翻譯和AI回應服務",
   },
   th: {
     colorfulDiary: "จดจำวันนี้ด้วยสี บันทึกวันของคุณด้วยไดอารี่ที่มีสีสันและแสดงอารมณ์ของคุณด้วยภาพ",
@@ -198,5 +212,6 @@ export const productDescriptions: Record<string, Record<string, string>> = {
       "ทำให้การเป็นแฟนคลับของคุณสมบูรณ์แบบ! สิ่งจำเป็นสำหรับคอนเสิร์ตที่คุณไม่ควรพลาด เรารวบรวมสิ่งของจำเป็นสำหรับการเป็นแฟนคลับของคุณ ตรวจสอบตอนนี้",
     wordBingo: "เกมบิงโกที่เล่นด้วยพยัญชนะเกาหลี ท้าทายตอนนี้เพื่อดูว่า AI หรือคุณจะทำบิงโกได้ 3 แถวก่อน!",
     runnersBadge: "ตรวจสอบตารางการวิ่งมาราธอนทั่วประเทศ จัดการบันทึกส่วนตัว และสะสมเหรียญตราพิเศษ สนุกกับการวิ่งได้เลย",
+    meetra: "บริการแปลภาษาแบบเรียลไทม์และการตอบสนองด้วย AI สำหรับการสื่อสารระดับโลกที่ราบรื่น",
   },
 }

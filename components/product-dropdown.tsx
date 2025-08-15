@@ -59,7 +59,7 @@ export default function ProductDropdown() {
                   onClick={() => handleProductClick(product.url)}
                   className="flex items-center gap-3 w-full text-left px-4 py-3 hover:bg-gray-700 transition-colors"
                 >
-                  <div className="w-8 h-8 relative flex-shrink-0 bg-gray-900 rounded-xl overflow-hidden">
+                  <div className="w-8 h-8 relative flex-shrink-0 bg-white/10 rounded-xl overflow-hidden">
                     <img
                       src={product.icon || "/placeholder.svg"}
                       alt={product.name}

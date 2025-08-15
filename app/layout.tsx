@@ -110,7 +110,7 @@ export const metadata: Metadata = {
       "ja-JP": "https://www.komjirak.studio/ja",
     },
   },
-    generator: 'v0.dev'
+    generator: 'v0.app'
 }
 
 export default function RootLayout({

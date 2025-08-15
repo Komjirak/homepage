@@ -209,7 +209,7 @@ function ProductDropdown() {
                 onClick={() => handleProductClick(product.url)}
                 className="flex items-center gap-3 w-full text-left px-4 py-3 hover:bg-gray-700 transition-colors"
               >
-                <div className="w-8 h-8 relative flex-shrink-0 bg-gray-900 rounded-xl overflow-hidden">
+                <div className="w-8 h-8 relative flex-shrink-0 bg-white/10 rounded-xl overflow-hidden">
                   <img
                     src={product.icon || "/placeholder.svg"}
                     alt={product.name}
@@ -356,7 +356,7 @@ export default function KomjirakSharedHeader({
           height: 2rem;
           position: relative;
           flex-shrink: 0;
-          background-color: #111827;
+          background-color: rgba(255, 255, 255, 0.1);
           border-radius: 0.75rem;
           overflow: hidden;
         }

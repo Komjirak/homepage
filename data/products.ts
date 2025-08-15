@@ -105,4 +105,13 @@ export const products: Product[] = [
       mobileWeb: "https://runners.komjirak.studio/",
     },
   },
+  {
+    id: "meetra",
+    name: "meetra",
+    icon: "/images/meetra.jpg", // .png에서 .jpg로 변경
+    url: "https://meetra.komjirak.studio",
+    platforms: {
+      mobileWeb: "https://meetra.komjirak.studio",
+    },
+  },
 ]

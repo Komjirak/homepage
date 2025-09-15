@@ -10,6 +10,7 @@ export type TranslationKey =
   | "viewProject"
   | "selectProduct"
   | "meetra"
+  | "komjirakMakers"
 
 export type Translations = {
   [key in TranslationKey]: string
@@ -28,6 +29,8 @@ export const translations: Record<string, Translations> = {
     viewProject: "Go to Product",
     selectProduct: "Select Product",
     meetra: "Real-time multilingual interpretation and AI response service for seamless global communication",
+    komjirakMakers:
+      "Experience the joy of AI-powered creativity! Create your own stickers, life cartoons, and enjoy virtual fitting with just a few finger taps.",
   },
   ko: {
     studioName: "꼼지락 스튜디오",
@@ -42,6 +45,8 @@ export const translations: Record<string, Translations> = {
     selectProduct: "프로덕트 선택",
     meetra:
       "원활한 글로벌 소통을 위한 실시간 다국어 통역 및 AI 응답 서비스. 언제 어디서나 글로벌 회의에서 당당하게 의견을 말해보세요.",
+    komjirakMakers:
+      "AI로 만드는 창작의 즐거움을 경험! 손가락을 꼼지락 거리며 만드는 나만의 스티커를 만들고, 인생 카툰을 만들고, 가상피팅을 즐겨보세요",
   },
   ja: {
     studioName: "コムジラク スタジオ",
@@ -55,6 +60,8 @@ export const translations: Record<string, Translations> = {
     viewProject: "プロダクトへ",
     selectProduct: "プロダクトを選択",
     meetra: "シームレスなグローバルコミュニケーションのためのリアルタイム多言語通訳とAI応答サービス",
+    komjirakMakers:
+      "AIで作る創作の楽しさを体験！指先でちょこちょこ作る自分だけのステッカーを作り、人生漫画を作り、バーチャルフィッティングを楽しんでみてください",
   },
   "zh-CN": {
     studioName: "Komjirak 工作室",
@@ -68,6 +75,7 @@ export const translations: Record<string, Translations> = {
     viewProject: "前往产品",
     selectProduct: "选择产品",
     meetra: "为无缝全球沟通提供的实时多语言翻译和AI响应服务",
+    komjirakMakers: "体验AI创作的乐趣！动动手指制作专属贴纸，创作人生漫画，享受虚拟试衣的乐趣",
   },
   "zh-TW": {
     studioName: "Komjirak 工作室",
@@ -81,6 +89,7 @@ export const translations: Record<string, Translations> = {
     viewProject: "前往產品",
     selectProduct: "選擇產品",
     meetra: "為無縫全球溝通提供的即時多語言翻譯和AI回應服務",
+    komjirakMakers: "體驗AI創作的樂趣！動動手指製作專屬貼紙，創作人生漫畫，享受虛擬試衣的樂趣",
   },
   th: {
     studioName: "Komjirak Studio",
@@ -94,6 +103,8 @@ export const translations: Record<string, Translations> = {
     viewProject: "ไปที่ผลิตภัณฑ์",
     selectProduct: "เลือกผลิตภัณฑ์",
     meetra: "บริการแปลภาษาแบบเรียลไทม์และการตอบสนองด้วย AI สำหรับการสื่อสารระดับโลกที่ราบรื่น",
+    komjirakMakers:
+      "สัมผัสความสนุกของการสร้างสรรค์ด้วย AI! สร้างสติกเกอร์ของคุณเอง การ์ตูนชีวิต และเพลิดเพลินกับการลองเสื้อผ้าเสมือนจริงด้วยปลายนิ้ว",
   },
 }
 
@@ -120,6 +131,8 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     runnersBadge:
       "Check national marathon schedules, manage personal records, and collect special badges. Enjoy the fun of running.",
     meetra: "Real-time multilingual interpretation and AI response service for seamless global communication",
+    komjirakMakers:
+      "Experience the joy of AI-powered creativity! Create your own stickers, life cartoons, and enjoy virtual fitting with just a few finger taps.",
   },
   ko: {
     colorfulDiary:
@@ -143,6 +156,8 @@ export const productDescriptions: Record<string, Record<string, string>> = {
       "전국 마라톤 일정을 확인하고, 개인 기록을 관리하며, 특별한 배지를 수집하세요. 달리는 재미를 즐겨보세요.",
     meetra:
       "원활한 글로벌 소통을 위한 실시간 다국어 통역 및 AI 응답 서비스. 언제 어디서나 글로벌 회의에서 당당하게 의견을 말해보세요.",
+    komjirakMakers:
+      "AI로 만드는 창작의 즐거움을 경험! 손가락을 꼼지락 거리며 만드는 나만의 스티커를 만들고, 인생 카툰을 만들고, 가상피팅을 즐겨보세요",
   },
   ja: {
     colorfulDiary: "今日を色で記憶しましょう。あなたの一日をカラフルな日記で記録し、感情を視覚的に表現してみましょう。",
@@ -165,6 +180,8 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     runnersBadge:
       "全国のマラソン日程を確認し、個人記録を管理し、特別なバッジを集めましょう。走る楽しさを満喫してください。",
     meetra: "シームレスなグローバルコミュニケーションのためのリアルタイム多言語通訳とAI応答サービス",
+    komjirakMakers:
+      "AIで作る創作の楽しさを体験！指先でちょこちょこ作る自分だけのステッカーを作り、人生漫画を作り、バーチャルフィッティングを楽しんでみてください",
   },
   "zh-CN": {
     colorfulDiary: "用颜色记住今天。用多彩的日记记录你的一天，视觉化表达你的情感。",
@@ -180,6 +197,7 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     wordBingo: "用韩语辅音玩的宾果游戏。现在就来挑战，看看是AI还是你，谁能先完成宾果盘上的3行！",
     runnersBadge: "查看全国马拉松日程，管理个人记录，并收集特殊徽章。享受跑步的乐趣。",
     meetra: "为无缝全球沟通提供的实时多语言翻译和AI响应服务",
+    komjirakMakers: "体验AI创作的乐趣！动动手指制作专属贴纸，创作人生漫画，享受虚拟试衣的乐趣",
   },
   "zh-TW": {
     colorfulDiary: "用顏色記住今天。用多彩的日記記錄你的一天，視覺化表達你的情感。",
@@ -195,6 +213,7 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     wordBingo: "用韓語輔音玩的賓果遊戲。現在就來挑戰，看看是AI還是你，誰能先完成賓果盤上的3行！",
     runnersBadge: "查看全國馬拉松日程，管理個人記錄，並收集特殊徽章。享受跑步的樂趣。",
     meetra: "為無縫全球溝通提供的即時多語言翻譯和AI回應服務",
+    komjirakMakers: "體驗AI創作的樂趣！動動手指製作專屬貼紙，創作人生漫畫，享受虛擬試衣的樂趣",
   },
   th: {
     colorfulDiary: "จดจำวันนี้ด้วยสี บันทึกวันของคุณด้วยไดอารี่ที่มีสีสันและแสดงอารมณ์ของคุณด้วยภาพ",
@@ -213,5 +232,7 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     wordBingo: "เกมบิงโกที่เล่นด้วยพยัญชนะเกาหลี ท้าทายตอนนี้เพื่อดูว่า AI หรือคุณจะทำบิงโกได้ 3 แถวก่อน!",
     runnersBadge: "ตรวจสอบตารางการวิ่งมาราธอนทั่วประเทศ จัดการบันทึกส่วนตัว และสะสมเหรียญตราพิเศษ สนุกกับการวิ่งได้เลย",
     meetra: "บริการแปลภาษาแบบเรียลไทม์และการตอบสนองด้วย AI สำหรับการสื่อสารระดับโลกที่ราบรื่น",
+    komjirakMakers:
+      "สัมผัสความสนุกของการสร้างสรรค์ด้วย AI! สร้างสติกเกอร์ของคุณเอง การ์ตูนชีวิต และเพลิดเพลินกับการลองเสื้อผ้าเสมือนจริงด้วยปลายนิ้ว",
   },
 }

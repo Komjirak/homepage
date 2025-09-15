@@ -108,10 +108,19 @@ export const products: Product[] = [
   {
     id: "meetra",
     name: "meetra",
-    icon: "/images/meetra.jpg", // .png에서 .jpg로 변경
+    icon: "/images/meetra.jpg",
     url: "https://meetra.komjirak.studio",
     platforms: {
       mobileWeb: "https://meetra.komjirak.studio",
+    },
+  },
+  {
+    id: "komjirakMakers",
+    name: "Komjirak Makers",
+    icon: "/images/komjirakmakers.png",
+    url: "https://makers.komjirak.studio",
+    platforms: {
+      mobileWeb: "https://makers.komjirak.studio",
     },
   },
 ]

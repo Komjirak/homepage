@@ -11,6 +11,7 @@ export type TranslationKey =
   | "selectProduct"
   | "meetra"
   | "komjirakMakers"
+  | "doDream"
 
 export type Translations = {
   [key in TranslationKey]: string
@@ -31,6 +32,8 @@ export const translations: Record<string, Translations> = {
     meetra: "Real-time multilingual interpretation and AI response service for seamless global communication",
     komjirakMakers:
       "Experience the joy of AI-powered creativity! Create your own stickers, life cartoons, and enjoy virtual fitting with just a few finger taps.",
+    doDream:
+      "Emotions accumulated all day long. Release those feelings that are hard to express in words by drumming them out. DoDream, your personal emotional relief space where you empty emotions and fill dreams.",
   },
   ko: {
     studioName: "꼼지락 스튜디오",
@@ -47,6 +50,8 @@ export const translations: Record<string, Translations> = {
       "원활한 글로벌 소통을 위한 실시간 다국어 통역 및 AI 응답 서비스. 언제 어디서나 글로벌 회의에서 당당하게 의견을 말해보세요.",
     komjirakMakers:
       "AI로 만드는 창작의 즐거움을 경험! 손가락을 꼼지락 거리며 만드는 나만의 스티커를 만들고, 인생 카툰을 만들고, 가상피팅을 즐겨보세요",
+    doDream:
+      "하루 종일 쌓인 감정들. 말로는 표현하기 어려운 그 마음을 북처럼 두드리며 털어내세요. 두드림(DoDream), 감정을 비우고 꿈을 채우는 나만의 감정 해우소.",
   },
   ja: {
     studioName: "コムジラク スタジオ",
@@ -62,6 +67,8 @@ export const translations: Record<string, Translations> = {
     meetra: "シームレスなグローバルコミュニケーションのためのリアルタイム多言語通訳とAI応答サービス",
     komjirakMakers:
       "AIで作る創作の楽しさを体験！指先でちょこちょこ作る自分だけのステッカーを作り、人生漫画を作り、バーチャルフィッティングを楽しんでみてください",
+    doDream:
+      "一日中溜まった感情。言葉では表現しにくいその気持ちを、太鼓のように叩いて発散しましょう。DoDream、感情を空にして夢を満たす、あなただけの感情解放スペース。",
   },
   "zh-CN": {
     studioName: "Komjirak 工作室",
@@ -76,6 +83,8 @@ export const translations: Record<string, Translations> = {
     selectProduct: "选择产品",
     meetra: "为无缝全球沟通提供的实时多语言翻译和AI响应服务",
     komjirakMakers: "体验AI创作的乐趣！动动手指制作专属贴纸，创作人生漫画，享受虚拟试衣的乐趣",
+    doDream:
+      "一整天积累的情绪。像敲鼓一样敲打释放那些难以用言语表达的心情。DoDream，清空情绪、填满梦想的专属情绪释放空间。",
   },
   "zh-TW": {
     studioName: "Komjirak 工作室",
@@ -90,6 +99,8 @@ export const translations: Record<string, Translations> = {
     selectProduct: "選擇產品",
     meetra: "為無縫全球溝通提供的即時多語言翻譯和AI回應服務",
     komjirakMakers: "體驗AI創作的樂趣！動動手指製作專屬貼紙，創作人生漫畫，享受虛擬試衣的樂趣",
+    doDream:
+      "一整天累積的情緒。像敲鼓一樣敲打釋放那些難以用言語表達的心情。DoDream，清空情緒、填滿夢想的專屬情緒釋放空間。",
   },
   th: {
     studioName: "Komjirak Studio",
@@ -105,6 +116,8 @@ export const translations: Record<string, Translations> = {
     meetra: "บริการแปลภาษาแบบเรียลไทม์และการตอบสนองด้วย AI สำหรับการสื่อสารระดับโลกที่ราบรื่น",
     komjirakMakers:
       "สัมผัสความสนุกของการสร้างสรรค์ด้วย AI! สร้างสติกเกอร์ของคุณเอง การ์ตูนชีวิต และเพลิดเพลินกับการลองเสื้อผ้าเสมือนจริงด้วยปลายนิ้ว",
+    doDream:
+      "อารมณ์ที่สะสมมาทั้งวัน ปล่อยความรู้สึกที่ยากจะบรรยายด้วยคำพูดโดยการเคาะเหมือนกลอง DoDream พื้นที่ปลดปล่อยอารมณ์ส่วนตัวของคุณ ที่คุณสามารถเทอารมณ์ออกและเติมเต็มความฝัน",
   },
 }
 
@@ -133,6 +146,8 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     meetra: "Real-time multilingual interpretation and AI response service for seamless global communication",
     komjirakMakers:
       "Experience the joy of AI-powered creativity! Create your own stickers, life cartoons, and enjoy virtual fitting with just a few finger taps.",
+    doDream:
+      "Emotions accumulated all day long. Release those feelings that are hard to express in words by drumming them out. DoDream, your personal emotional relief space where you empty emotions and fill dreams.",
   },
   ko: {
     colorfulDiary:
@@ -158,6 +173,8 @@ export const productDescriptions: Record<string, Record<string, string>> = {
       "원활한 글로벌 소통을 위한 실시간 다국어 통역 및 AI 응답 서비스. 언제 어디서나 글로벌 회의에서 당당하게 의견을 말해보세요.",
     komjirakMakers:
       "AI로 만드는 창작의 즐거움을 경험! 손가락을 꼼지락 거리며 만드는 나만의 스티커를 만들고, 인생 카툰을 만들고, 가상피팅을 즐겨보세요",
+    doDream:
+      "하루 종일 쌓인 감정들. 말로는 표현하기 어려운 그 마음을 북처럼 두드리며 털어내세요. 두드림(DoDream), 감정을 비우고 꿈을 채우는 나만의 감정 해우소.",
   },
   ja: {
     colorfulDiary: "今日を色で記憶しましょう。あなたの一日をカラフルな日記で記録し、感情を視覚的に表現してみましょう。",
@@ -182,6 +199,8 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     meetra: "シームレスなグローバルコミュニケーションのためのリアルタイム多言語通訳とAI応答サービス",
     komjirakMakers:
       "AIで作る創作の楽しさを体験！指先でちょこちょこ作る自分だけのステッカーを作り、人生漫画を作り、バーチャルフィッティングを楽しんでみてください",
+    doDream:
+      "一日中溜まった感情。言葉では表現しにくいその気持ちを、太鼓のように叩いて発散しましょう。DoDream、感情を空にして夢を満たす、あなただけの感情解放スペース。",
   },
   "zh-CN": {
     colorfulDiary: "用颜色记住今天。用多彩的日记记录你的一天，视觉化表达你的情感。",
@@ -198,6 +217,8 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     runnersBadge: "查看全国马拉松日程，管理个人记录，并收集特殊徽章。享受跑步的乐趣。",
     meetra: "为无缝全球沟通提供的实时多语言翻译和AI响应服务",
     komjirakMakers: "体验AI创作的乐趣！动动手指制作专属贴纸，创作人生漫画，享受虚拟试衣的乐趣",
+    doDream:
+      "一整天积累的情绪。像敲鼓一样敲打释放那些难以用言语表达的心情。DoDream，清空情绪、填满梦想的专属情绪释放空间。",
   },
   "zh-TW": {
     colorfulDiary: "用顏色記住今天。用多彩的日記記錄你的一天，視覺化表達你的情感。",
@@ -214,6 +235,8 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     runnersBadge: "查看全國馬拉松日程，管理個人記錄，並收集特殊徽章。享受跑步的樂趣。",
     meetra: "為無縫全球溝通提供的即時多語言翻譯和AI回應服務",
     komjirakMakers: "體驗AI創作的樂趣！動動手指製作專屬貼紙，創作人生漫畫，享受虛擬試衣的樂趣",
+    doDream:
+      "一整天累積的情緒。像敲鼓一樣敲打釋放那些難以用言語表達的心情。DoDream，清空情緒、填滿夢想的專屬情緒釋放空間。",
   },
   th: {
     colorfulDiary: "จดจำวันนี้ด้วยสี บันทึกวันของคุณด้วยไดอารี่ที่มีสีสันและแสดงอารมณ์ของคุณด้วยภาพ",
@@ -234,5 +257,7 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     meetra: "บริการแปลภาษาแบบเรียลไทม์และการตอบสนองด้วย AI สำหรับการสื่อสารระดับโลกที่ราบรื่น",
     komjirakMakers:
       "สัมผัสความสนุกของการสร้างสรรค์ด้วย AI! สร้างสติกเกอร์ของคุณเอง การ์ตูนชีวิต และเพลิดเพลินกับการลองเสื้อผ้าเสมือนจริงด้วยปลายนิ้ว",
+    doDream:
+      "อารมณ์ที่สะสมมาทั้งวัน ปล่อยความรู้สึกที่ยากจะบรรยายด้วยคำพูดโดยการเคาะเหมือนกลอง DoDream พื้นที่ปลดปล่อยอารมณ์ส่วนตัวของคุณ ที่คุณสามารถเทอารมณ์ออกและเติมเต็มความฝัน",
   },
 }

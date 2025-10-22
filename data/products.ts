@@ -123,4 +123,13 @@ export const products: Product[] = [
       mobileWeb: "https://makers.komjirak.studio",
     },
   },
+  {
+    id: "doDream",
+    name: "DoDream",
+    icon: "/images/dodream.png",
+    url: "https://dodream.komjirak.studio/",
+    platforms: {
+      mobileWeb: "https://dodream.komjirak.studio/",
+    },
+  },
 ]

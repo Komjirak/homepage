@@ -23,14 +23,12 @@ export const products: Product[] = [
     },
   },
   {
-    id: "bookclip",
-    name: "Bookclip",
-    icon: "/images/bookclip_icon.png",
-    url: "https://bookclip.komjirak.studio",
+    id: "tastory",
+    name: "Tastory",
+    icon: "/images/tastory_icon.png",
+    url: "https://tastory.komjirak.studio",
     platforms: {
-      ios: "https://apps.apple.com/us/app/bookclip/id6670740418",
-      android: "https://play.google.com/store/apps/details?id=com.bookclip.komjirak",
-      mobileWeb: "https://bookclip.komjirak.studio",
+      mobileWeb: "https://tastory.komjirak.studio",
     },
   },
   {

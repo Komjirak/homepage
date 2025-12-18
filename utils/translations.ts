@@ -125,8 +125,8 @@ export const productDescriptions: Record<string, Record<string, string>> = {
   en: {
     colorfulDiary:
       "Remember today with colors. Record your day with a colorful diary and express your emotions visually.",
-    bookclip:
-      "Clip book sentences with your own sensibility! Search and save sentences you've read, and leave your emotions in this emotional reading memo service.",
+    tastory:
+      "Taste Story - Where your tastes become records, meet Tastory. Build your personal archive of all the content you love - books, movies, and TV shows. Your taste grows with you.",
     memoryGame:
       "Enjoy a photo memory game by matching people and objects in your memory! Train your memory with a memory card game made with your own photos.",
     loveSmash:
@@ -152,8 +152,8 @@ export const productDescriptions: Record<string, Record<string, string>> = {
   ko: {
     colorfulDiary:
       "기억하고 싶은 오늘 하루를 색상으로 기억하세요. 당신의 하루를 다채로운 색의 다이어리로 기록하고, 감정을 시각적으로 표현해보세요.",
-    bookclip:
-      "책 속 문장을 나만의 감성으로 클립! 읽은 문장을 검색하고 저장하며, 그날의 감정까지 함께 남기는 감성 독서 메모 서비스.",
+    tastory:
+      "Taste Story 취향이 기록이 되는 공간, Tastory를 만나보세요. 책, 영화, TV 프로그램까지 내가 사랑한 모든 콘텐츠를 '당신의 취향이 쌓여가는 개인 아카이브'에 담아보세요.",
     memoryGame:
       "기억 속 인물과 물건을 짝지으며 즐기는 사진 기억 게임! 내 사진으로 직접 만드는 메모리 카드 게임으로 기억력도 즐겁게 훈련해보세요.",
     loveSmash:
@@ -177,25 +177,16 @@ export const productDescriptions: Record<string, Record<string, string>> = {
       "하루 종일 쌓인 감정들. 말로는 표현하기 어려운 그 마음을 북처럼 두드리며 털어내세요. 두드림(DoDream), 감정을 비우고 꿈을 채우는 나만의 감정 해우소.",
   },
   ja: {
-    colorfulDiary: "今日を色で記憶しましょう。あなたの一日をカラフルな日記で記録し、感情を視覚的に表現してみましょう。",
-    bookclip:
-      "本の中の文章を自分だけの感性でクリップ！読んだ文章を検索して保存し、その日の感情も一緒に残す感性読書メモサービス。",
-    memoryGame:
-      "記憶の中の人物や物を組み合わせて楽しむ写真記憶ゲーム！自分の写真で直接作るメモリーカードゲームで記憶力も楽しく訓練してみましょう。",
-    loveSmash:
-      "推しの写真にハートをパンパン！愛を表現するブロック崩し。好きな人の写真をアップロードしてハートでいっぱいにしてみましょう。ブロックを壊しながら愛情を積み重ねるゲーム。",
-    smashYou:
-      "復讐したい顔があれば、ブロックで吹き飛ばしましょう！ストレスを発散するリベンジゲーム！復讐対象の写真をアップロードして痛快にブロックを壊してみましょう。",
-    dramaWhenLifeGivesYouTangerines:
-      "涙を誘った美しいドラマを覚えている小さな方法。小さな出来事もドラマになる瞬間。感性とストーリーで織りなす日常の一場面に出会ってみましょう。",
-    todaysTaroCard:
-      "今日の運命、カードがお知らせします。軽くめくったカード一枚に隠れている今日のメッセージを確認してみましょう。",
-    duckjilEssential:
-      "推し活をより完璧に！見逃せないコンサート必須アイテム。あなたの趣味を満たす、推し活必須アイテムを集めました。今すぐ確認してみましょう。",
-    wordBingo:
-      "ハングル子音で楽しむビンゴゲーム。AIが勝つか、私が勝つか、誰が先にビンゴボードの3列を完成させるか、今すぐ挑戦してみてください！",
-    runnersBadge:
-      "全国のマラソン日程を確認し、個人記録を管理し、特別なバッジを集めましょう。走る楽しさを満喫してください。",
+    studioName: "コムジラク スタジオ",
+    studioValue: "作る人も、使う人も、みんなが幸せなサービスを作っていきます。",
+    products: "プロダクト",
+    platforms: "プラットフォーム",
+    concept: "コンセプト",
+    ios: "iOS",
+    android: "Android",
+    mobileWeb: "モバイルウェブ",
+    viewProject: "プロダクトへ",
+    selectProduct: "プロダクトを選択",
     meetra: "シームレスなグローバルコミュニケーションのためのリアルタイム多言語通訳とAI応答サービス",
     komjirakMakers:
       "AIで作る創作の楽しさを体験！指先でちょこちょこ作る自分だけのステッカーを作り、人生漫画を作り、バーチャルフィッティングを楽しんでみてください",
@@ -203,57 +194,48 @@ export const productDescriptions: Record<string, Record<string, string>> = {
       "一日中溜まった感情。言葉では表現しにくいその気持ちを、太鼓のように叩いて発散しましょう。DoDream、感情を空にして夢を満たす、あなただけの感情解放スペース。",
   },
   "zh-CN": {
-    colorfulDiary: "用颜色记住今天。用多彩的日记记录你的一天，视觉化表达你的情感。",
-    bookclip: "用自己的感性剪辑书中的句子！搜索并保存你读过的句子，在这个感性阅读备忘录服务中留下你的情感。",
-    memoryGame: "通过匹配记忆中的人物和物品来享受照片记忆游戏！用自己的照片制作记忆卡牌游戏，愉快地训练你的记忆力。",
-    loveSmash: "向你最喜欢的人的照片发送爱心！通过打砖块表达你的爱。上传你喜欢的人的照片，用爱心填满它。",
-    smashYou: "如果有你想报复的脸，用砖块把它吹走！一个释放压力的复仇游戏！上传你的复仇目标的照片，痛快地打破砖块。",
-    dramaWhenLifeGivesYouTangerines:
-      "记住那部让你流泪的美丽剧集的小方法。当小事件也成为戏剧的瞬间。体验一个用情感和故事编织的日常场景。",
-    todaysTaroCard: "今天的命运，卡片会告诉你。查看隐藏在随意翻开的卡片中的今日信息。",
-    duckjilEssential:
-      "让你的粉丝活动更完美！不容错过的音乐会必备品。我们收集了满足你爱好的粉丝必备品。现在就来看看吧。",
-    wordBingo: "用韩语辅音玩的宾果游戏。现在就来挑战，看看是AI还是你，谁能先完成宾果盘上的3行！",
-    runnersBadge: "查看全国马拉松日程，管理个人记录，并收集特殊徽章。享受跑步的乐趣。",
+    studioName: "Komjirak 工作室",
+    studioValue: "创造让创作者、用户和所有人都感到幸福的服务。",
+    products: "产品",
+    platforms: "平台",
+    concept: "概念",
+    ios: "iOS",
+    android: "Android",
+    mobileWeb: "移动网页",
+    viewProject: "前往产品",
+    selectProduct: "选择产品",
     meetra: "为无缝全球沟通提供的实时多语言翻译和AI响应服务",
     komjirakMakers: "体验AI创作的乐趣！动动手指制作专属贴纸，创作人生漫画，享受虚拟试衣的乐趣",
     doDream:
       "一整天积累的情绪。像敲鼓一样敲打释放那些难以用言语表达的心情。DoDream，清空情绪、填满梦想的专属情绪释放空间。",
   },
   "zh-TW": {
-    colorfulDiary: "用顏色記住今天。用多彩的日記記錄你的一天，視覺化表達你的情感。",
-    bookclip: "用自己的感性剪輯書中的句子！搜索並保存你讀過的句子，在這個感性閱讀備忘錄服務中留下你的情感。",
-    memoryGame: "通過匹配記憶中的人物和物品來享受照片記憶遊戲！用自己的照片製作記憶卡牌遊戲，愉快地訓練你的記憶力。",
-    loveSmash: "向你最喜歡的人的照片發送愛心！通過打磚塊表達你的愛。上傳你喜歡的人的照片，用愛心填滿它。",
-    smashYou: "如果有你想報復的臉，用磚塊把它吹走！一個釋放壓力的復仇遊戲！上傳你的復仇目標的照片，痛快地打破磚塊。",
-    dramaWhenLifeGivesYouTangerines:
-      "記住那部讓你流淚的美麗劇集的小方法。當小事件也成為戲劇的瞬間。體驗一個用情感和故事編織的日常場景。",
-    todaysTaroCard: "今天的命運，卡片會告訴你。查看隱藏在隨意翻開的卡片中的今日信息。",
-    duckjilEssential:
-      "讓你的粉絲活動更完美！不容錯過的音樂會必備品。我們收集了滿足你愛好的粉絲必備品。現在就來看看吧。",
-    wordBingo: "用韓語輔音玩的賓果遊戲。現在就來挑戰，看看是AI還是你，誰能先完成賓果盤上的3行！",
-    runnersBadge: "查看全國馬拉松日程，管理個人記錄，並收集特殊徽章。享受跑步的樂趣。",
+    studioName: "Komjirak 工作室",
+    studioValue: "創造讓創作者、用戶和所有人都感到幸福的服務。",
+    products: "產品",
+    platforms: "平台",
+    concept: "概念",
+    ios: "iOS",
+    android: "Android",
+    mobileWeb: "移動網頁",
+    viewProject: "前往產品",
+    selectProduct: "選擇產品",
     meetra: "為無縫全球溝通提供的即時多語言翻譯和AI回應服務",
     komjirakMakers: "體驗AI創作的樂趣！動動手指製作專屬貼紙，創作人生漫畫，享受虛擬試衣的樂趣",
     doDream:
       "一整天累積的情緒。像敲鼓一樣敲打釋放那些難以用言語表達的心情。DoDream，清空情緒、填滿夢想的專屬情緒釋放空間。",
   },
   th: {
-    colorfulDiary: "จดจำวันนี้ด้วยสี บันทึกวันของคุณด้วยไดอารี่ที่มีสีสันและแสดงอารมณ์ของคุณด้วยภาพ",
-    bookclip:
-      "คลิปประโยคในหนังสือด้วยความรู้สึกของคุณเอง! ค้นหาและบันทึกประโยคที่คุณอ่าน และบันทึกอารมณ์ของคุณในบริการบันทึกการอ่านที่เต็มไปด้วยอารมณ์นี้",
-    memoryGame:
-      "สนุกกับเกมความจำรูปภาพโดยการจับคู่คนและวัตถุในความทรงจำของคุณ! ฝึกความจำของคุณด้วยเกมไพ่ความจำที่สร้างจากรูปถ่ายของคุณเอง",
-    loveSmash: "ส่งหัวใจให้รูปถ่ายคนที่คุณชื่นชอบ! แสดงความรักของคุณผ่านการทำลายอิฐ อัปโหลดรูปถ่ายของคนที่คุณชอบและเติมด้วยหัวใจ",
-    smashYou:
-      "ถ้ามีใบหน้าที่คุณต้องการแก้แค้น ระเบิดมันด้วยอิฐ! เกมแก้แค้นที่ช่วยคลายความเครียด! อัปโหลดรูปถ่ายของเป้าหมายการแก้แค้นของคุณและทำลายอิฐอย่างสะใจ",
-    dramaWhenLifeGivesYouTangerines:
-      "วิธีเล็กๆ ในการจดจำละครที่สวยงามที่ทำให้คุณน้ำตาไหล เมื่อแม้แต่เหตุการณ์เล็กๆ ก็กลายเป็นละคร สัมผัสฉากจากชีวิตประจำวันที่ถักทอด้วยอารมณ์และเรื่องราว",
-    todaysTaroCard: "ชะตากรรมของวันนี้ ไพ่จะบอกคุณ ตรวจสอบข้อความของวันนี้ที่ซ่อนอยู่ในไพ่ที่พลิกอย่างไม่ตั้งใจ",
-    duckjilEssential:
-      "ทำให้การเป็นแฟนคลับของคุณสมบูรณ์แบบ! สิ่งจำเป็นสำหรับคอนเสิร์ตที่คุณไม่ควรพลาด เรารวบรวมสิ่งของจำเป็นสำหรับการเป็นแฟนคลับของคุณ ตรวจสอบตอนนี้",
-    wordBingo: "เกมบิงโกที่เล่นด้วยพยัญชนะเกาหลี ท้าทายตอนนี้เพื่อดูว่า AI หรือคุณจะทำบิงโกได้ 3 แถวก่อน!",
-    runnersBadge: "ตรวจสอบตารางการวิ่งมาราธอนทั่วประเทศ จัดการบันทึกส่วนตัว และสะสมเหรียญตราพิเศษ สนุกกับการวิ่งได้เลย",
+    studioName: "Komjirak Studio",
+    studioValue: "สร้างบริการที่ทำให้ผู้สร้าง ผู้ใช้ และทุกคนมีความสุข",
+    products: "ผลิตภัณฑ์",
+    platforms: "แพลตฟอร์ม",
+    concept: "แนวคิด",
+    ios: "iOS",
+    android: "Android",
+    mobileWeb: "เว็บมือถือ",
+    viewProject: "ไปที่ผลิตภัณฑ์",
+    selectProduct: "เลือกผลิตภัณฑ์",
     meetra: "บริการแปลภาษาแบบเรียลไทม์และการตอบสนองด้วย AI สำหรับการสื่อสารระดับโลกที่ราบรื่น",
     komjirakMakers:
       "สัมผัสความสนุกของการสร้างสรรค์ด้วย AI! สร้างสติกเกอร์ของคุณเอง การ์ตูนชีวิต และเพลิดเพลินกับการลองเสื้อผ้าเสมือนจริงด้วยปลายนิ้ว",

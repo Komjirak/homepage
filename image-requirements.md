@@ -10,6 +10,6 @@
 8. `/images/taro.png` - Today's Taro Card 아이콘
 
 이 이미지 파일들을 프로젝트의 `/public/images/` 디렉토리에 저장해야 합니다.
-\`\`\`
+```
 
 사용 예시를 보여드리겠습니다:

@@ -10,7 +10,7 @@
 
 ## 기본 사용법
 
-\`\`\`tsx
+```tsx
 import KomjirakSharedHeader from "../components/KomjirakSharedHeader"
 
 export default function YourPage() {
@@ -25,23 +25,23 @@ export default function YourPage() {
     </div>
   )
 }
-\`\`\`
+```
 
 ## 커스터마이징
 
-\`\`\`tsx
+```tsx
 <KomjirakSharedHeader 
   logoSrc="/images/custom-logo.png"  // 커스텀 로고 이미지
   homeUrl="/dashboard"               // 로고 클릭 시 이동할 URL
   className="bg-purple-900/80"       // 추가 CSS 클래스
 />
-\`\`\`
+```
 
 ## 제품 데이터 업데이트
 
 제품 데이터를 중앙에서 관리하고 업데이트하려면 `utils/updateProducts.ts` 파일의 함수들을 사용하세요:
 
-\`\`\`tsx
+```tsx
 import { addSharedProduct, updateSharedProduct, removeSharedProduct } from "../utils/updateProducts"
 
 // 새 제품 추가
@@ -63,7 +63,7 @@ updateSharedProduct("colorfulDiary", {
 
 // 제품 삭제
 removeSharedProduct("productIdToRemove")
-\`\`\`
+```
 
 ## 주의사항
 

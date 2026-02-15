@@ -15,6 +15,7 @@ type Product = {
     ios?: string
     android?: string
     mobileWeb: string
+    appInToss?: string
   }
 }
 
@@ -147,6 +148,26 @@ const products: Product[] = [
     url: "https://duckjil.komjirak.studio",
     platforms: {
       mobileWeb: "https://duckjil.komjirak.studio",
+    },
+  },
+  {
+    id: "photoPuzzle",
+    name: "Photo Puzzle",
+    icon: "/images/puzzlemaster.png",
+    url: "https://minion.toss.im/Fcd6CN1m",
+    platforms: {
+      appInToss: "https://minion.toss.im/Fcd6CN1m",
+      mobileWeb: "https://minion.toss.im/Fcd6CN1m",
+    },
+  },
+  {
+    id: "memoryGameToss",
+    name: "Memory Game",
+    icon: "/images/memorygame.png",
+    url: "https://minion.toss.im/Bd3uvFbB",
+    platforms: {
+      appInToss: "https://minion.toss.im/Bd3uvFbB",
+      mobileWeb: "https://minion.toss.im/Bd3uvFbB",
     },
   },
 ]

@@ -146,8 +146,10 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     meetra: "Real-time multilingual interpretation and AI response service for seamless global communication",
     komjirakMakers:
       "Experience the joy of AI-powered creativity! Create your own stickers, life cartoons, and enjoy virtual fitting with just a few finger taps.",
-    doDream:
-      "Emotions accumulated all day long. Release those feelings that are hard to express in words by drumming them out. DoDream, your personal emotional relief space where you empty emotions and fill dreams.",
+    photoPuzzle:
+      "Create a puzzle game with your own photos. Complete a beautiful image by solving the puzzle within a limited number of moves.",
+    memoryGameToss:
+      "How old is your memory? Upload photos inside your phone and verify your memory age with random themes.",
   },
   ko: {
     colorfulDiary:
@@ -173,8 +175,10 @@ export const productDescriptions: Record<string, Record<string, string>> = {
       "원활한 글로벌 소통을 위한 실시간 다국어 통역 및 AI 응답 서비스. 언제 어디서나 글로벌 회의에서 당당하게 의견을 말해보세요.",
     komjirakMakers:
       "AI로 만드는 창작의 즐거움을 경험! 손가락을 꼼지락 거리며 만드는 나만의 스티커를 만들고, 인생 카툰을 만들고, 가상피팅을 즐겨보세요",
-    doDream:
-      "하루 종일 쌓인 감정들. 말로는 표현하기 어려운 그 마음을 북처럼 두드리며 털어내세요. 두드림(DoDream), 감정을 비우고 꿈을 채우는 나만의 감정 해우소.",
+    photoPuzzle:
+      "내 사진을 넣고 만드는 퍼즐 게임. 정해진 횟수 내에 퍼즐을 맞춰 예쁜 이미지를 완성하세요",
+    memoryGameToss:
+      "당신의 기억력 나이는 몇 살? 랜덤 테마와 내 폰 안에 사진을 올려 간단한 기억력 테스트를 해보세요.",
   },
   ja: {
     studioName: "コムジラク スタジオ",
@@ -190,8 +194,10 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     meetra: "シームレスなグローバルコミュニケーションのためのリアルタイム多言語通訳とAI応答サービス",
     komjirakMakers:
       "AIで作る創作の楽しさを体験！指先でちょこちょこ作る自分だけのステッカーを作り、人生漫画を作り、バーチャルフィッティングを楽しんでみてください",
-    doDream:
-      "一日中溜まった感情。言葉では表現しにくいその気持ちを、太鼓のように叩いて発散しましょう。DoDream、感情を空にして夢を満たす、あなただけの感情解放スペース。",
+    photoPuzzle:
+      "自分の写真を入れて作るパズルゲーム。決められた回数内にパズルを合わせてきれいな画像を完成させてください",
+    memoryGameToss:
+      "あなたの記憶力の年齢は何歳？ランダムなテーマと携帯電話の中の写真をアップロードして簡単な記憶力テストをしてみてください。",
   },
   "zh-CN": {
     studioName: "Komjirak 工作室",
@@ -206,8 +212,10 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     selectProduct: "选择产品",
     meetra: "为无缝全球沟通提供的实时多语言翻译和AI响应服务",
     komjirakMakers: "体验AI创作的乐趣！动动手指制作专属贴纸，创作人生漫画，享受虚拟试衣的乐趣",
-    doDream:
-      "一整天积累的情绪。像敲鼓一样敲打释放那些难以用言语表达的心情。DoDream，清空情绪、填满梦想的专属情绪释放空间。",
+    photoPuzzle:
+      "放入自己的照片制作的拼图游戏。在规定的次数内拼好拼图，完成漂亮的图片吧",
+    memoryGameToss:
+      "你的记忆力年龄是几岁？上传随机主题和手机里的照片，进行简单的记忆力测试吧。",
   },
   "zh-TW": {
     studioName: "Komjirak 工作室",
@@ -222,8 +230,10 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     selectProduct: "選擇產品",
     meetra: "為無縫全球溝通提供的即時多語言翻譯和AI回應服務",
     komjirakMakers: "體驗AI創作的樂趣！動動手指製作專屬貼紙，創作人生漫畫，享受虛擬試衣的樂趣",
-    doDream:
-      "一整天累積的情緒。像敲鼓一樣敲打釋放那些難以用言語表達的心情。DoDream，清空情緒、填滿夢想的專屬情緒釋放空間。",
+    photoPuzzle:
+      "放入自己的照片製作的拼圖遊戲。在規定的次數內拼好拼圖，完成漂亮的圖片吧",
+    memoryGameToss:
+      "你的記憶力年齡是幾歲？上傳隨機主題和手機裡的照片，進行簡單的記憶力測試吧。",
   },
   th: {
     studioName: "Komjirak Studio",
@@ -239,7 +249,9 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     meetra: "บริการแปลภาษาแบบเรียลไทม์และการตอบสนองด้วย AI สำหรับการสื่อสารระดับโลกที่ราบรื่น",
     komjirakMakers:
       "สัมผัสความสนุกของการสร้างสรรค์ด้วย AI! สร้างสติกเกอร์ของคุณเอง การ์ตูนชีวิต และเพลิดเพลินกับการลองเสื้อผ้าเสมือนจริงด้วยปลายนิ้ว",
-    doDream:
-      "อารมณ์ที่สะสมมาทั้งวัน ปล่อยความรู้สึกที่ยากจะบรรยายด้วยคำพูดโดยการเคาะเหมือนกลอง DoDream พื้นที่ปลดปล่อยอารมณ์ส่วนตัวของคุณ ที่คุณสามารถเทอารมณ์ออกและเติมเต็มความฝัน",
+    photoPuzzle:
+      "เกมปริศนาที่สร้างจากรูปถ่ายของคุณเอง ต่อจิ๊กซอว์ให้เสร็จภายในจำนวนครั้งที่กำหนดเพื่อสร้างภาพที่สวยงาม",
+    memoryGameToss:
+      "อายุความจำของคุณคือเท่าไหร่? อัปโหลดธีมแบบสุ่มและรูปถ่ายในโทรศัพท์ของคุณเพื่อทดสอบความจำง่ายๆ",
   },
 }

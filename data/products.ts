@@ -7,6 +7,7 @@ export type Product = {
     ios?: string
     android?: string
     mobileWeb: string
+    appInToss?: string
   }
 }
 
@@ -122,12 +123,23 @@ export const products: Product[] = [
     },
   },
   {
-    id: "doDream",
-    name: "DoDream",
-    icon: "/images/dodream.png",
-    url: "https://dodream.komjirak.studio/",
+    id: "photoPuzzle",
+    name: "Photo Puzzle",
+    icon: "/images/puzzlemaster.png",
+    url: "https://minion.toss.im/Fcd6CN1m",
     platforms: {
-      mobileWeb: "https://dodream.komjirak.studio/",
+      appInToss: "https://minion.toss.im/Fcd6CN1m",
+      mobileWeb: "https://minion.toss.im/Fcd6CN1m",
+    },
+  },
+  {
+    id: "memoryGameToss",
+    name: "Memory Game",
+    icon: "/images/memorygame.png",
+    url: "https://minion.toss.im/Bd3uvFbB",
+    platforms: {
+      appInToss: "https://minion.toss.im/Bd3uvFbB",
+      mobileWeb: "https://minion.toss.im/Bd3uvFbB",
     },
   },
 ]

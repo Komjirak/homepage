@@ -7,6 +7,7 @@ export type TranslationKey =
   | "ios"
   | "android"
   | "mobileWeb"
+  | "appInToss"
   | "viewProject"
   | "selectProduct"
   | "meetra"
@@ -27,6 +28,7 @@ export const translations: Record<string, Translations> = {
     ios: "iOS",
     android: "Android",
     mobileWeb: "Mobile Web",
+    appInToss: "App in Toss",
     viewProject: "Go to Product",
     selectProduct: "Select Product",
     meetra: "Real-time multilingual interpretation and AI response service for seamless global communication",
@@ -44,6 +46,7 @@ export const translations: Record<string, Translations> = {
     ios: "iOS",
     android: "AOS",
     mobileWeb: "모바일 웹",
+    appInToss: "앱인토스",
     viewProject: "프로덕트 바로가기",
     selectProduct: "프로덕트 선택",
     meetra:
@@ -62,6 +65,7 @@ export const translations: Record<string, Translations> = {
     ios: "iOS",
     android: "Android",
     mobileWeb: "モバイルウェブ",
+    appInToss: "App in Toss",
     viewProject: "プロダクトへ",
     selectProduct: "プロダクトを選択",
     meetra: "シームレスなグローバルコミュニケーションのためのリアルタイム多言語通訳とAI応答サービス",
@@ -79,6 +83,7 @@ export const translations: Record<string, Translations> = {
     ios: "iOS",
     android: "Android",
     mobileWeb: "移动网页",
+    appInToss: "App in Toss",
     viewProject: "前往产品",
     selectProduct: "选择产品",
     meetra: "为无缝全球沟通提供的实时多语言翻译和AI响应服务",
@@ -95,6 +100,7 @@ export const translations: Record<string, Translations> = {
     ios: "iOS",
     android: "Android",
     mobileWeb: "移動網頁",
+    appInToss: "App in Toss",
     viewProject: "前往產品",
     selectProduct: "選擇產品",
     meetra: "為無縫全球溝通提供的即時多語言翻譯和AI回應服務",
@@ -189,6 +195,7 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     ios: "iOS",
     android: "Android",
     mobileWeb: "モバイルウェブ",
+    appInToss: "App in Toss",
     viewProject: "プロダクトへ",
     selectProduct: "プロダクトを選択",
     meetra: "シームレスなグローバルコミュニケーションのためのリアルタイム多言語通訳とAI応答サービス",
@@ -226,6 +233,7 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     ios: "iOS",
     android: "Android",
     mobileWeb: "移動網頁",
+    appInToss: "App in Toss",
     viewProject: "前往產品",
     selectProduct: "選擇產品",
     meetra: "為無縫全球溝通提供的即時多語言翻譯和AI回應服務",

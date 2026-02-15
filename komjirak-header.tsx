@@ -14,7 +14,7 @@ type Product = {
   platforms: {
     ios?: string
     android?: string
-    mobileWeb: string
+    mobileWeb?: string
     appInToss?: string
   }
 }
@@ -157,7 +157,6 @@ const products: Product[] = [
     url: "https://minion.toss.im/Fcd6CN1m",
     platforms: {
       appInToss: "https://minion.toss.im/Fcd6CN1m",
-      mobileWeb: "https://minion.toss.im/Fcd6CN1m",
     },
   },
   {
@@ -167,7 +166,6 @@ const products: Product[] = [
     url: "https://minion.toss.im/Bd3uvFbB",
     platforms: {
       appInToss: "https://minion.toss.im/Bd3uvFbB",
-      mobileWeb: "https://minion.toss.im/Bd3uvFbB",
     },
   },
 ]

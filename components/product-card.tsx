@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation"
 import { motion } from "framer-motion"
 import { useLanguage } from "@/contexts/language-context"
 import type { Product } from "@/data/products"
-import { Apple, Globe, ShoppingBag } from "lucide-react"
+import { Apple, Globe, ShoppingBag, Smartphone } from "lucide-react"
 
 interface ProductCardProps {
   product: Product
@@ -82,6 +82,17 @@ export default function ProductCard({ product, index }: ProductCardProps) {
               >
                 <Globe size={12} />
                 {t("mobileWeb")}
+              </Link>
+            )}
+            {product.platforms.appInToss && (
+              <Link
+                href={product.platforms.appInToss}
+                target="_blank"
+                className="flex items-center gap-1 text-xs bg-blue-600 hover:bg-blue-500 px-3 py-1 rounded-full text-white"
+                onClick={(e) => e.stopPropagation()}
+              >
+                <Smartphone size={12} />
+                {t("appInToss")}
               </Link>
             )}
           </div>

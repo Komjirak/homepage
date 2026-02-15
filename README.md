@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Komjirak Shared Header
 
 이 컴포넌트는 꼼지락 스튜디오의 공유 헤더 컴포넌트입니다. 여러 v0 프로젝트에서 일관된 헤더를 사용하고, 중앙에서 제품 데이터를 관리할 수 있습니다.
@@ -70,3 +71,39 @@ removeSharedProduct("productIdToRemove")
 1. 이 컴포넌트는 Tailwind CSS 스타일을 사용하지만, 인라인 스타일도 포함되어 있어 Tailwind가 없는 환경에서도 작동합니다.
 2. 제품 데이터 업데이트는 현재 세션에서만 유지됩니다. 페이지를 새로고침하면 기본 데이터로 돌아갑니다.
 3. 여러 프로젝트에서 완전히 동기화된 데이터를 유지하려면 외부 데이터 소스(API, 데이터베이스 등)를 사용해야 합니다.
+=======
+# 🎨 Komjirak Studio
+
+> **"Creating services that make creators, users, and everyone happy."**
+
+Welcome to **Komjirak Studio**! We build delightful digital experiences, from productivity tools to fun games. This is our central hub where you can explore all our services.
+
+## 🌟 Featured Services
+
+### 🎮 Games & Fun
+- **Memory Game (기억력 한 판)**: How old is your memory? Upload photos and test your memory skills! [Play Now](https://minion.toss.im/Bd3uvFbB)
+- **Photo Puzzle**: Create puzzle games with your own photos. [Play Now](https://minion.toss.im/Fcd6CN1m)
+- **Word-Bingo**: A bingo game played with Korean consonants.
+- **LOVE Smash & Smash You**: Stress-relieving brick breaking games.
+
+### 🛠️ Productivity & Lifestyle
+- **Colorful Diary**: Record your day with colors and express your emotions.
+- **Tastory**: Build your personal archive of books, movies, and TV shows.
+- **Duckjil Essential**: Essential items for your fandom life.
+- **Runners' Badge**: Manage marathon records and collect badges.
+
+## 🌍 Global Ready
+We support **multilingual interfaces** to welcome users from all over the world:
+- 🇺🇸 English
+- 🇰🇷 Korean
+- 🇯🇵 Japanese
+- 🇨🇳 Chinese (Simplified & Traditional)
+- 🇹🇭 Thai
+
+## 🚀 Connect With Us
+- **Website**: [https://komjirak.studio](https://komjirak.studio)
+- **Contact**: komjirak.studio@gmail.com
+
+---
+*Powered by Next.js & Vercel*
+>>>>>>> c211e28 (docs: update README with marketing content)

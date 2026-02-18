@@ -35,7 +35,7 @@ export const products: Product[] = [
   {
     id: "memoryGame",
     name: "Memory Game",
-    icon: "/images/memorygame.png",
+    icon: "/images/memory-game_original.png",
     url: "https://memory-game.komjirak.studio",
     platforms: {
       mobileWeb: "https://memory-game.komjirak.studio",

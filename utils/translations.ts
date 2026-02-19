@@ -152,6 +152,8 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     meetra: "Real-time multilingual interpretation and AI response service for seamless global communication",
     komjirakMakers:
       "Experience the joy of AI-powered creativity! Create your own stickers, life cartoons, and enjoy virtual fitting with just a few finger taps.",
+    officeSurvival:
+      "Those who endure win. Handle paperwork, manage stress, and survive office life in this hyper casual survival game. The longer you last, the more you get promoted—aim for a happy retirement by surviving to the end.",
     photoPuzzle:
       "Create a puzzle game with your own photos. Complete a beautiful image by solving the puzzle within a limited number of moves.",
     memoryGameToss:
@@ -181,6 +183,8 @@ export const productDescriptions: Record<string, Record<string, string>> = {
       "원활한 글로벌 소통을 위한 실시간 다국어 통역 및 AI 응답 서비스. 언제 어디서나 글로벌 회의에서 당당하게 의견을 말해보세요.",
     komjirakMakers:
       "AI로 만드는 창작의 즐거움을 경험! 손가락을 꼼지락 거리며 만드는 나만의 스티커를 만들고, 인생 카툰을 만들고, 가상피팅을 즐겨보세요",
+    officeSurvival:
+      "버티는 자가 승리한다! 서류를 처리하고 스트레스를 관리하며 직장생활에서 살아남는 하이퍼 캐주얼 생존 게임. 오래 버틸수록 승진하고, 끝까지 생존해 행복한 은퇴를 목표로 하세요.",
     photoPuzzle:
       "내 사진을 넣고 만드는 퍼즐 게임. 정해진 횟수 내에 퍼즐을 맞춰 예쁜 이미지를 완성하세요",
     memoryGameToss:
@@ -201,6 +205,8 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     meetra: "シームレスなグローバルコミュニケーションのためのリアルタイム多言語通訳とAI応答サービス",
     komjirakMakers:
       "AIで作る創作の楽しさを体験！指先でちょこちょこ作る自分だけのステッカーを作り、人生漫画を作り、バーチャルフィッティングを楽しんでみてください",
+    officeSurvival:
+      "耐え抜いた者が勝者！書類を処理し、ストレスを管理しながら会社生活を生き残るハイパーカジュアルサバイバルゲームです。長く耐えれば耐えるほど昇進し、最後まで生き残って幸せな退職を目指しましょう。",
     photoPuzzle:
       "自分の写真を入れて作るパズルゲーム。決められた回数内にパズルを合わせてきれいな画像を完成させてください",
     memoryGameToss:
@@ -219,6 +225,8 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     selectProduct: "选择产品",
     meetra: "为无缝全球沟通提供的实时多语言翻译和AI响应服务",
     komjirakMakers: "体验AI创作的乐趣！动动手指制作专属贴纸，创作人生漫画，享受虚拟试衣的乐趣",
+    officeSurvival:
+      "熬得住的人才能胜出！在这款超休闲生存游戏中，一边处理文件一边管理压力，在职场中努力生存。坚持得越久，升职越快，目标是生存到最后，迎接幸福退休。",
     photoPuzzle:
       "放入自己的照片制作的拼图游戏。在规定的次数内拼好拼图，完成漂亮的图片吧",
     memoryGameToss:
@@ -238,6 +246,8 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     selectProduct: "選擇產品",
     meetra: "為無縫全球溝通提供的即時多語言翻譯和AI回應服務",
     komjirakMakers: "體驗AI創作的樂趣！動動手指製作專屬貼紙，創作人生漫畫，享受虛擬試衣的樂趣",
+    officeSurvival:
+      "撐得住的人才是贏家！在這款超休閒生存遊戲中，一邊處理文件、一邊管理壓力，在職場中努力活下去。撐得越久，升職越快，以活到最後並迎接幸福退休為目標吧。",
     photoPuzzle:
       "放入自己的照片製作的拼圖遊戲。在規定的次數內拼好拼圖，完成漂亮的圖片吧",
     memoryGameToss:
@@ -257,6 +267,8 @@ export const productDescriptions: Record<string, Record<string, string>> = {
     meetra: "บริการแปลภาษาแบบเรียลไทม์และการตอบสนองด้วย AI สำหรับการสื่อสารระดับโลกที่ราบรื่น",
     komjirakMakers:
       "สัมผัสความสนุกของการสร้างสรรค์ด้วย AI! สร้างสติกเกอร์ของคุณเอง การ์ตูนชีวิต และเพลิดเพลินกับการลองเสื้อผ้าเสมือนจริงด้วยปลายนิ้ว",
+    officeSurvival:
+      "ผู้ที่อดทนได้เท่านั้นคือผู้ชนะ! เกมเอาชีวิตรอดสุดแคชชวลที่ให้คุณจัดการเอกสาร ควบคุมความเครียด และเอาตัวรอดจากชีวิตมนุษย์ออฟฟิศ ยิ่งทนได้นาน ยิ่งได้เลื่อนตำแหน่ง เป้าหมายคืออยู่รอดให้ถึงที่สุดและเกษียณอย่างมีความสุข",
     photoPuzzle:
       "เกมปริศนาที่สร้างจากรูปถ่ายของคุณเอง ต่อจิ๊กซอว์ให้เสร็จภายในจำนวนครั้งที่กำหนดเพื่อสร้างภาพที่สวยงาม",
     memoryGameToss:

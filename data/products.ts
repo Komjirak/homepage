@@ -60,15 +60,6 @@ export const products: Product[] = [
     },
   },
   {
-    id: "officeSurvival",
-    name: "Office Survival",
-    icon: "/images/office-survival.png",
-    url: "http://office-survival.komjirak.studio/",
-    platforms: {
-      mobileWeb: "http://office-survival.komjirak.studio/",
-    },
-  },
-  {
     id: "dramaWhenLifeGivesYouTangerines",
     name: "When Life Gives You Tangerines",
     icon: "/images/whenlifegives.jpeg",
@@ -147,6 +138,15 @@ export const products: Product[] = [
     url: "https://minion.toss.im/Bd3uvFbB",
     platforms: {
       appInToss: "https://minion.toss.im/Bd3uvFbB",
+    },
+  },
+  {
+    id: "officeSurvival",
+    name: "Office Survival",
+    icon: "/images/office-survival.png",
+    url: "http://office-survival.komjirak.studio/",
+    platforms: {
+      mobileWeb: "http://office-survival.komjirak.studio/",
     },
   },
 ]

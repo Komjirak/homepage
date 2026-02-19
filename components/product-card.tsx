@@ -37,12 +37,12 @@ export default function ProductCard({ product, index }: ProductCardProps) {
     >
       <div onClick={handleCardClick} className="flex-1 flex flex-col cursor-pointer">
         <div className="relative h-48 bg-gradient-to-r from-gray-900 to-gray-800 flex items-center justify-center p-6">
-          <div className="product-icon w-32 h-32 relative">
+          <div className="product-icon w-32 h-32 relative rounded-3xl overflow-hidden bg-gray-900">
             <Image
               src={product.icon || "/placeholder.svg"}
               alt={product.name}
               fill
-              className="object-contain rounded-3xl"
+              className="object-cover"
             />
           </div>
         </div>

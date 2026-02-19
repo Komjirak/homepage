@@ -2,6 +2,8 @@ export type TranslationKey =
   | "studioName"
   | "studioValue"
   | "products"
+  | "sortOldest"
+  | "sortNewest"
   | "platforms"
   | "concept"
   | "ios"
@@ -23,6 +25,8 @@ export const translations: Record<string, Translations> = {
     studioName: "Komjirak Studio",
     studioValue: "Creating services that make creators, users, and everyone happy.",
     products: "Products",
+    sortOldest: "Oldest first",
+    sortNewest: "Newest first",
     platforms: "Platforms",
     concept: "Concept",
     ios: "iOS",
@@ -41,6 +45,8 @@ export const translations: Record<string, Translations> = {
     studioName: "꼼지락 스튜디오",
     studioValue: "만드는 사람도, 쓰는 사람도, 모두가 행복한 서비스를 만들어나갑니다.",
     products: "프로덕트",
+    sortOldest: "등록일순",
+    sortNewest: "최신순",
     platforms: "제공 플랫폼",
     concept: "컨셉",
     ios: "iOS",
@@ -60,6 +66,8 @@ export const translations: Record<string, Translations> = {
     studioName: "コムジラク スタジオ",
     studioValue: "作る人も、使う人も、みんなが幸せなサービスを作っていきます。",
     products: "プロダクト",
+    sortOldest: "登録日順",
+    sortNewest: "新しい順",
     platforms: "プラットフォーム",
     concept: "コンセプト",
     ios: "iOS",
@@ -78,6 +86,8 @@ export const translations: Record<string, Translations> = {
     studioName: "Komjirak 工作室",
     studioValue: "创造让创作者、用户和所有人都感到幸福的服务。",
     products: "产品",
+    sortOldest: "按注册日期排序",
+    sortNewest: "按最新排序",
     platforms: "平台",
     concept: "概念",
     ios: "iOS",
@@ -95,6 +105,8 @@ export const translations: Record<string, Translations> = {
     studioName: "Komjirak 工作室",
     studioValue: "創造讓創作者、用戶和所有人都感到幸福的服務。",
     products: "產品",
+    sortOldest: "依註冊日期排序",
+    sortNewest: "依最新排序",
     platforms: "平台",
     concept: "概念",
     ios: "iOS",
@@ -112,6 +124,8 @@ export const translations: Record<string, Translations> = {
     studioName: "Komjirak Studio",
     studioValue: "สร้างบริการที่ทำให้ผู้สร้าง ผู้ใช้ และทุกคนมีความสุข",
     products: "ผลิตภัณฑ์",
+    sortOldest: "ตามวันที่เพิ่ม (เก่า→ใหม่)",
+    sortNewest: "ตามวันที่เพิ่ม (ใหม่→เก่า)",
     platforms: "แพลตฟอร์ม",
     concept: "แนวคิด",
     ios: "iOS",

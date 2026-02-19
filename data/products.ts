@@ -143,7 +143,7 @@ export const products: Product[] = [
   {
     id: "officeSurvival",
     name: "Office Survival",
-    icon: "/images/office-survival.png",
+    icon: "/images/office_survival.png",
     url: "http://office-survival.komjirak.studio/",
     platforms: {
       mobileWeb: "http://office-survival.komjirak.studio/",

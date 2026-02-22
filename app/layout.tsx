@@ -1,8 +1,9 @@
 import type React from "react"
 import "./globals.css"
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import { Poppins } from "next/font/google"
-import { LanguageProvider } from "@/contexts/language-context"
+import { LanguageProvider } from "@/i18n/LanguageContext"
+import { ThemeProvider } from "@/components/ThemeProvider"
 import GoogleAnalytics from "@/components/GoogleAnalytics"
 import StructuredData from "@/components/StructuredData"
 import { Suspense } from "react"
@@ -12,6 +13,13 @@ const poppins = Poppins({
   subsets: ["latin"],
   display: "swap",
 })
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+}
 
 export const metadata: Metadata = {
   title: "꼼지락 스튜디오 | 모바일 앱 & 게임",
@@ -78,12 +86,6 @@ export const metadata: Metadata = {
     images: ["/images/twitter-image.png"],
     creator: "@komjirak",
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 1,
-    userScalable: false,
-  },
   robots: {
     index: true,
     follow: true,
@@ -110,7 +112,7 @@ export const metadata: Metadata = {
       "ja-JP": "https://www.komjirak.studio/ja",
     },
   },
-    generator: 'v0.app'
+  generator: 'v0.app'
 }
 
 export default function RootLayout({
@@ -119,7 +121,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="ko">
+    <html lang="ko" suppressHydrationWarning>
       <head>
         <Suspense fallback={null}>
           <GoogleAnalytics />
@@ -130,7 +132,9 @@ export default function RootLayout({
         <StructuredData />
       </head>
       <body className={poppins.className}>
-        <LanguageProvider>{children}</LanguageProvider>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <LanguageProvider>{children}</LanguageProvider>
+        </ThemeProvider>
       </body>
     </html>
   )

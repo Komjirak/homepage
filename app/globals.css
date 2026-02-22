@@ -1,104 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 245, 230, 200;
-  --background-rgb: 11, 11, 9;
-}
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-rgb));
-}
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --primary: 32 95% 55%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --accent: 32 95% 55%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 32 95% 55%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 32 95% 55%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 240 5.9% 90%;
+    --sidebar-ring: 32 95% 55%;
+
+    --glow: 32 95% 55%;
+    --surface: 0 0% 100%;
   }
-  to {
-    opacity: 1;
+
+  .dark {
+    --background: 240 10% 4%;
+    --foreground: 0 0% 95%;
+
+    --card: 240 8% 8%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 240 8% 8%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 32 95% 55%;
+    --primary-foreground: 240 10% 4%;
+
+    --secondary: 240 6% 14%;
+    --secondary-foreground: 0 0% 85%;
+
+    --muted: 240 6% 14%;
+    --muted-foreground: 0 0% 55%;
+
+    --accent: 32 95% 55%;
+    --accent-foreground: 240 10% 4%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 240 6% 18%;
+    --input: 240 6% 18%;
+    --ring: 32 95% 55%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 240 8% 6%;
+    --sidebar-foreground: 0 0% 85%;
+    --sidebar-primary: 32 95% 55%;
+    --sidebar-primary-foreground: 240 10% 4%;
+    --sidebar-accent: 240 6% 14%;
+    --sidebar-accent-foreground: 0 0% 85%;
+    --sidebar-border: 240 6% 18%;
+    --sidebar-ring: 32 95% 55%;
+
+    --glow: 32 95% 55%;
+    --surface: 240 8% 10%;
   }
 }
 
-@keyframes scaleIn {
-  from {
-    transform: scale(0.8);
-    opacity: 0;
+@layer base {
+  * {
+    @apply border-border;
   }
-  to {
-    transform: scale(1);
-    opacity: 1;
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Noto Sans KR', 'Space Grotesk', sans-serif;
   }
-}
 
-@keyframes slideUp {
-  from {
-    transform: translateY(20px);
-    opacity: 0;
+  html {
+    scroll-behavior: smooth;
   }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-.animate-fade-in {
-  animation: fadeIn 0.5s ease-in-out;
-}
-
-.animate-scale-in {
-  animation: scaleIn 0.5s ease-in-out;
-}
-
-.animate-slide-up {
-  animation: slideUp 0.5s ease-in-out;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .text-glow {
+    text-shadow: 0 0 40px hsl(32 95% 55% / 0.4), 0 0 80px hsl(32 95% 55% / 0.15);
   }
-}
 
-.product-icon {
-  border-radius: 24px;
-  overflow: hidden;
-  transition: transform 0.3s ease;
-}
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(32 95% 55%), hsl(40 100% 70%));
+  }
 
-.product-icon img,
-.product-thumbnail img {
-  border-radius: inherit;
-}
+  .surface-glass {
+    background: hsl(var(--surface) / 0.7);
+    backdrop-filter: blur(20px);
+    border: 1px solid hsl(var(--border) / 0.5);
+  }
 
-.product-icon:hover {
-  transform: scale(1.05);
-}
+  .slide-section {
+    @apply h-screen w-full flex items-center justify-center relative overflow-hidden;
+    scroll-snap-align: start;
+  }
 
-.card-gradient {
-  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
-}
+  .scroll-snap-container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+  }
 
-.text-shadow {
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
+  .product-icon {
+    @apply w-24 h-24 rounded-2xl shadow-2xl;
+    box-shadow: 0 8px 32px hsl(var(--background) / 0.5), 0 0 60px hsl(var(--primary) / 0.1);
+  }
 
-.btn-primary {
-  background: linear-gradient(135deg, #e63e2e 0%, #f39c63 100%);
-  transition: all 0.3s ease;
-}
+  .nav-dot {
+    @apply w-2 h-2 rounded-full transition-all duration-300 cursor-pointer;
+  }
 
-.btn-primary:hover {
-  filter: brightness(1.1);
-  transform: translateY(-2px);
-}
+  .nav-dot-active {
+    @apply w-2 h-6 bg-primary;
+    box-shadow: 0 0 12px hsl(32 95% 55% / 0.6);
+  }
 
-.product-thumbnail {
-  border-radius: 16px;
-  overflow: hidden;
+  .nav-dot-inactive {
+    @apply bg-muted-foreground/30 hover:bg-muted-foreground/60;
+  }
 }

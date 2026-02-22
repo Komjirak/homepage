@@ -10,25 +10,25 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  async redirects() {
+  /* async redirects() {
     return [
       {
-        source: '/:path*',
+        source: '/:path((?!api|_next/static|_next/image|favicon.ico|images).*)',
         has: [
           {
             type: 'host',
             value: 'komjirak.studio',
           },
         ],
-        destination: 'https://www.komjirak.studio/:path*', // Ensured destination is correct
+        destination: 'https://www.komjirak.studio/:path*',
         permanent: true,
       },
     ]
-  },
+  }, */
   async headers() {
     return [
       {
-        source: '/(.*)',
+        source: '/:path((?!_next/static|_next/image|favicon.ico|images).*)',
         headers: [
           {
             key: 'X-Content-Type-Options',

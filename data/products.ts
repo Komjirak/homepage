@@ -1,152 +1,167 @@
-export type Product = {
-  id: string
-  name: string
-  icon: string
-  url: string
-  platforms: {
-    ios?: string
-    android?: string
-    mobileWeb?: string
-    appInToss?: string
-  }
+export interface Product {
+  id: string;
+  name: string;
+  description: string;
+  icon: string;
+  url: string;
+  platforms: { label: string; url: string }[];
+  color: string;
+  createdAt: string; // for sorting
 }
 
 export const products: Product[] = [
   {
-    id: "colorfulDiary",
+    id: "colorful-diary",
     name: "Colorful Diary",
+    description: "오늘을 색으로 기억하세요. 컬러풀한 일기로 하루를 기록하고, 감정을 시각적으로 표현하세요.",
     icon: "/images/diary_icon.png",
     url: "https://colorfuldiary.komjirak.studio/",
-    platforms: {
-      ios: "https://apps.apple.com/us/app/colorful-diary-your-day/id6670740993",
-      android: "https://play.google.com/store/apps/details?id=com.diary.komjirak",
-      mobileWeb: "https://colorfuldiary.komjirak.studio/",
-    },
+    platforms: [
+      { label: "iOS", url: "https://apps.apple.com/us/app/colorful-diary-your-day/id6670740993" },
+      { label: "Android", url: "https://play.google.com/store/apps/details?id=com.diary.komjirak" },
+      { label: "Web", url: "https://colorfuldiary.komjirak.studio/" },
+    ],
+    color: "32 95% 55%",
+    createdAt: "2024-01-01",
   },
   {
     id: "tastory",
     name: "Tastory",
+    description: "당신의 취향이 기록이 되는 곳. 책, 영화, 드라마 등 좋아하는 콘텐츠의 나만의 아카이브를 만들어보세요.",
     icon: "/images/tastory_icon.png",
-    url: "https://tastory.komjirak.studio",
-    platforms: {
-      mobileWeb: "https://tastory.komjirak.studio",
-    },
+    url: "https://tastory.komjirak.studio/",
+    platforms: [{ label: "Web", url: "https://tastory.komjirak.studio/" }],
+    color: "280 70% 55%",
+    createdAt: "2024-02-01",
   },
   {
-    id: "memoryGame",
+    id: "memory-game",
     name: "Memory Game",
-    icon: "/images/memory-game_original.png",
-    url: "https://memory-game.komjirak.studio",
-    platforms: {
-      mobileWeb: "https://memory-game.komjirak.studio",
-    },
+    description: "사진으로 즐기는 메모리 게임! 기억 속의 사람과 사물을 맞춰보세요.",
+    icon: "/images/memorygame.png",
+    url: "https://memory-game.komjirak.studio/",
+    platforms: [{ label: "Web", url: "https://memory-game.komjirak.studio/" }],
+    color: "200 80% 50%",
+    createdAt: "2024-03-01",
   },
   {
-    id: "loveSmash",
+    id: "love-smash",
     name: "LOVE Smash",
+    description: "좋아하는 사람의 사진에 하트를 보내세요! 벽돌깨기로 사랑을 표현하세요.",
     icon: "/images/lovesmash.png",
-    url: "https://lovesmash.komjirak.studio",
-    platforms: {
-      mobileWeb: "https://lovesmash.komjirak.studio",
-    },
+    url: "https://lovesmash.komjirak.studio/",
+    platforms: [{ label: "Web", url: "https://lovesmash.komjirak.studio/" }],
+    color: "350 80% 55%",
+    createdAt: "2024-04-01",
   },
   {
-    id: "smashYou",
+    id: "smash-you",
     name: "Smash You",
+    description: "복수하고 싶은 얼굴이 있다면, 벽돌로 날려버리세요! 스트레스 해소 복수 게임!",
     icon: "/images/smashyou.png",
-    url: "https://smashyou.komjirak.studio",
-    platforms: {
-      mobileWeb: "https://smashyou.komjirak.studio",
-    },
+    url: "https://smashyou.komjirak.studio/",
+    platforms: [{ label: "Web", url: "https://smashyou.komjirak.studio/" }],
+    color: "0 70% 50%",
+    createdAt: "2024-05-01",
   },
   {
-    id: "dramaWhenLifeGivesYouTangerines",
-    name: "When Life Gives You Tangerines",
+    id: "when-life-gives",
+    name: "폭싹 속았수다",
+    description: "눈물짓게 한 아름다운 드라마를 기억하는 작은 방법. 일상의 작은 사건도 드라마가 되는 순간.",
     icon: "/images/whenlifegives.jpeg",
     url: "https://drama-pokssak.komjirak.studio/",
-    platforms: {
-      mobileWeb: "https://drama-pokssak.komjirak.studio/",
-    },
+    platforms: [{ label: "Web", url: "https://drama-pokssak.komjirak.studio/" }],
+    color: "40 90% 55%",
+    createdAt: "2024-06-01",
   },
   {
-    id: "todaysTaroCard",
-    name: "Today's Tarot Cards",
+    id: "tarot",
+    name: "오늘의 타로카드",
+    description: "오늘의 운명, 카드가 알려줄게요. 무심코 뒤집은 카드 속에 숨겨진 오늘의 메시지를 확인하세요.",
     icon: "/images/taro.png",
-    url: "https://today-tarot-cards.komjirak.studio",
-    platforms: {
-      mobileWeb: "https://today-tarot-cards.komjirak.studio",
-    },
+    url: "https://today-tarot-cards.komjirak.studio/",
+    platforms: [{ label: "Web", url: "https://today-tarot-cards.komjirak.studio/" }],
+    color: "270 60% 50%",
+    createdAt: "2024-07-01",
   },
   {
-    id: "duckjilEssential",
-    name: "Duckjil Essential",
+    id: "duckjil",
+    name: "덕질 에센셜",
+    description: "덕질을 완벽하게! 콘서트에서 놓치면 아쉬운 필수 아이템을 모았습니다.",
     icon: "/images/duckjil_icon.png",
-    url: "https://duckjil.komjirak.studio",
-    platforms: {
-      mobileWeb: "https://duckjil.komjirak.studio",
-    },
+    url: "https://duckjil.komjirak.studio/",
+    platforms: [{ label: "Web", url: "https://duckjil.komjirak.studio/" }],
+    color: "320 70% 55%",
+    createdAt: "2024-08-01",
   },
   {
-    id: "wordBingo",
+    id: "word-bingo",
     name: "Word-Bingo",
-    icon: "/images/wordbingo.png",
-    url: "https://word-bingo.komjirak.studio",
-    platforms: {
-      mobileWeb: "https://word-bingo.komjirak.studio",
-    },
+    description: "한글 자음으로 즐기는 빙고 게임! AI와 빙고판에서 3줄을 먼저 완성하세요.",
+    icon: "/images/wordbingo.jpg",
+    url: "https://word-bingo.komjirak.studio/",
+    platforms: [{ label: "Web", url: "https://word-bingo.komjirak.studio/" }],
+    color: "160 60% 45%",
+    createdAt: "2024-09-01",
   },
   {
-    id: "runnersBadge",
+    id: "runners",
     name: "Runners' Badge",
+    description: "전국 마라톤 일정 확인, 개인 기록 관리, 특별한 뱃지 수집. 달리기의 즐거움을 만끽하세요.",
     icon: "/images/runner_homescreen_icon_rounded.png",
     url: "https://runners.komjirak.studio/",
-    platforms: {
-      mobileWeb: "https://runners.komjirak.studio/",
-    },
+    platforms: [{ label: "Web", url: "https://runners.komjirak.studio/" }],
+    color: "120 50% 45%",
+    createdAt: "2024-10-01",
   },
   {
     id: "meetra",
     name: "meetra",
+    description: "실시간 다국어 통역과 AI 응답 서비스로 글로벌 커뮤니케이션을 원활하게.",
     icon: "/images/meetra.jpg",
-    url: "https://meetra.komjirak.studio",
-    platforms: {
-      mobileWeb: "https://meetra.komjirak.studio",
-    },
+    url: "https://meetra.komjirak.studio/",
+    platforms: [{ label: "Web", url: "https://meetra.komjirak.studio/" }],
+    color: "210 70% 50%",
+    createdAt: "2024-11-01",
   },
   {
-    id: "komjirakMakers",
-    name: "Komjirak Makers",
+    id: "komjirak-makers",
+    name: "꼼지락 메이커스",
+    description: "AI 창작의 즐거움을 경험하세요! 스티커, 인생 만화, 가상 피팅을 손가락 몇 번으로.",
     icon: "/images/komjirakmakers.png",
-    url: "https://makers.komjirak.studio",
-    platforms: {
-      mobileWeb: "https://makers.komjirak.studio",
-    },
+    url: "https://makers.komjirak.studio/",
+    platforms: [{ label: "Web", url: "https://makers.komjirak.studio/" }],
+    color: "32 95% 55%",
+    createdAt: "2024-12-01",
   },
   {
-    id: "photoPuzzle",
-    name: "Photo Puzzle",
+    id: "photo-puzzle",
+    name: "포토 퍼즐",
+    description: "나만의 사진으로 퍼즐 게임을 만들어보세요. 제한된 이동 횟수 안에 아름다운 이미지를 완성하세요.",
     icon: "/images/puzzlemaster.png",
     url: "https://minion.toss.im/Fcd6CN1m",
-    platforms: {
-      appInToss: "https://minion.toss.im/Fcd6CN1m",
-    },
+    platforms: [{ label: "App in Toss", url: "https://minion.toss.im/Fcd6CN1m" }],
+    color: "200 60% 50%",
+    createdAt: "2025-01-01",
   },
   {
-    id: "memoryGameToss",
-    name: "Memory Game",
+    id: "memory-game-toss",
+    name: "기억력 한 판",
+    description: "당신의 기억력은 몇 살? 폰 속 사진을 업로드하고 랜덤 테마로 기억력 나이를 확인하세요.",
     icon: "/images/memorygame.png",
     url: "https://minion.toss.im/Bd3uvFbB",
-    platforms: {
-      appInToss: "https://minion.toss.im/Bd3uvFbB",
-    },
+    platforms: [{ label: "App in Toss", url: "https://minion.toss.im/Bd3uvFbB" }],
+    color: "180 60% 45%",
+    createdAt: "2025-02-01",
   },
   {
-    id: "officeSurvival",
+    id: "office-survival",
     name: "Office Survival",
+    description: "버티는 자가 이긴다. 서류 처리하고 스트레스 관리하며 직장 생활을 버텨내는 하이퍼 캐주얼 서바이벌.",
     icon: "/images/office_survival.png",
     url: "http://office-survival.komjirak.studio/",
-    platforms: {
-      mobileWeb: "http://office-survival.komjirak.studio/",
-    },
+    platforms: [{ label: "Web", url: "http://office-survival.komjirak.studio/" }],
+    color: "45 80% 50%",
+    createdAt: "2025-03-01",
   },
-]
+];

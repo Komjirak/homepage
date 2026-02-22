@@ -38,7 +38,7 @@ export const products: Product[] = [
     id: "memory-game",
     name: "Memory Game",
     description: "사진으로 즐기는 메모리 게임! 기억 속의 사람과 사물을 맞춰보세요.",
-    icon: "/images/memorygame.png",
+    icon: "/images/memory-game_original.png",
     url: "https://memory-game.komjirak.studio/",
     platforms: [{ label: "Web", url: "https://memory-game.komjirak.studio/" }],
     color: "200 80% 50%",
